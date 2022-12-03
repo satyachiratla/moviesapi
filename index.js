@@ -7,7 +7,7 @@ require("dotenv").config();
 const app = express();
 app.use(bodyParser.json());
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5050;
 
 db().then(() => console.log('Db connected'))
 
